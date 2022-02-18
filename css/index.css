@@ -7,12 +7,16 @@
     margin: 0 auto;
 }
 
-#box h1{
+
+.a h1{
     color: white;
     position: absolute;
     left: 30%;
     font-size: 70px;
     margin-top: 120px;
+    transform: translateY(100px); 
+    transition: all 3s; 
+    opacity: 0;
 }
 
 #canvas {
@@ -20,7 +24,7 @@
     position: absolute;
 }
 
-#box img{
+.a img{
     position: absolute;
     width: 350px;
     height: 500px;
@@ -28,3 +32,10 @@
     left: 40%;
 }
 
+.b img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30%;
+    position: absolute;
+    left: 55%;
+}
